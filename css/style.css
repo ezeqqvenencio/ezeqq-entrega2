@@ -8,14 +8,18 @@
 
 body{
     font-family:'Open Sans';
-    background-color: rgb(232, 240, 245);
+    background-color: rgb(255, 255, 255);
     margin: 0;    
 }
 
 header{
     padding: 25px 0;
     text-align: center;
-    background-color:rgb(185, 178, 178)   
+    background-color:rgb(168, 168, 168)   
+}
+
+main{
+    margin: 50px;
 }
 
 nav a{
@@ -26,8 +30,8 @@ nav a{
     border-radius: 30px;
 }
 nav a:hover{
-    background-color: #865959;
-    color: #fff;
+    background-color: #c2bfbf;
+    color: #111110;
 }
 
 .i-nosotros{
@@ -43,7 +47,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-color: #fff;
+color: #ffffff;
 }
 
 .img-principal p{
@@ -52,6 +56,18 @@ color: #fff;
 
 .img-principal h1{
     padding: 30px;
+}
+
+.titulo{
+    margin: 30px;
+    text-align: center;
+    background-color: rgb(102, 104, 103);
+}
+
+.imgh1{
+    display: flex;
+    justify-content: center;
+   
 }
 
 
@@ -63,6 +79,7 @@ color: #fff;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    padding: 60px
 }
 
 .form{
@@ -81,12 +98,12 @@ color: #fff;
 
 .r-h2{
     padding: 25px;
-    color: blue;
+    color: rgb(67, 68, 67);
     font-size: 25px;
 }
 
 label{
-    color: #283629;
+    color: #374133;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -96,9 +113,9 @@ input, textarea {
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
-    background-color: antiquewhite;
+    background-color: rgb(134, 167, 97);
     border: 2px #283629;
-    color: #774545;
+    color: #080808;
     outline: none;
 }
 
@@ -112,7 +129,7 @@ input, textarea {
     cursor: pointer;
 }
 .btn:hover{
-    background-color: red;
+    background-color: rgb(129, 127, 127);
 }
 
 
